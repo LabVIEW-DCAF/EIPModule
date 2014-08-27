@@ -21,9 +21,9 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="EthernetIP Channel.lvclass" Type="LVClass" URL="../channel/EthernetIP Channel.lvclass"/>
-		<Item Name="EthernetIP configuration.lvclass" Type="LVClass" URL="../configuration/EthernetIP configuration.lvclass"/>
-		<Item Name="EthernetIP runtime.lvclass" Type="LVClass" URL="../execution/EthernetIP runtime.lvclass"/>
+		<Item Name="EIP Tags Channel.lvclass" Type="LVClass" URL="../channel/EIP Tags Channel.lvclass"/>
+		<Item Name="EIP Tags Configuration.lvclass" Type="LVClass" URL="../configuration/EIP Tags Configuration.lvclass"/>
+		<Item Name="EIP Tags Runtime.lvclass" Type="LVClass" URL="../execution/EIP Tags Runtime.lvclass"/>
 		<Item Name="EthernetIP tests.lvlib" Type="Library" URL="../testing/EthernetIP tests.lvlib"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -37,6 +37,7 @@
 				<Item Name="ethernetip.lvlib" Type="Library" URL="/&lt;vilib&gt;/ethernetip/ethernetip.lvlib"/>
 			</Item>
 			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
+			<Item Name="EthernetIP Channel.lvclass" Type="LVClass" URL="../channel/EthernetIP Channel.lvclass"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
