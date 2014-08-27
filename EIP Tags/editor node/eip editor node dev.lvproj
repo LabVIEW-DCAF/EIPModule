@@ -20,19 +20,16 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="EIP Tag API editor node.lvclass" Type="LVClass" URL="../EIP Tag API editor node.lvclass"/>
+		<Item Name="EIP Tags Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/channel/EIP Tags Channel.lvclass"/>
+		<Item Name="EIP Tags Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/configuration/EIP Tags Configuration.lvclass"/>
+		<Item Name="EIP Tags editor node.lvclass" Type="LVClass" URL="../EIP Tags editor node.lvclass"/>
+		<Item Name="EIP Tags Runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/execution/EIP Tags Runtime.lvclass"/>
+		<Item Name="eipt.png" Type="Document" URL="../eipt.png"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
-				<Item Name="add assembly.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/add assembly.vi"/>
-				<Item Name="add channel to configuration.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/add channel to configuration.vi"/>
 				<Item Name="AMC.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/AMC/AMC.lvlib"/>
-				<Item Name="apply channel changes.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/apply channel changes.vi"/>
-				<Item Name="assembly definition.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/assembly definition.ctl"/>
-				<Item Name="assembly type to channel classification.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/channel/assembly type to channel classification.vi"/>
-				<Item Name="assembly type.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/assembly type.ctl"/>
 				<Item Name="asynchronous execution module configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/asynchronous execution module/configuration/asynchronous execution module configuration.lvclass"/>
 				<Item Name="BuildHelpPath.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/BuildHelpPath.vi"/>
-				<Item Name="channel class to assembly type.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/channel/channel class to assembly type.vi"/>
 				<Item Name="Check if File or Folder Exists.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Check if File or Folder Exists.vi"/>
 				<Item Name="Check Special Tags.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Check Special Tags.vi"/>
 				<Item Name="class discovery singleton.lvlib" Type="Library" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/Framework Configuration Classes/plugin discovery singleton/class discovery singleton.lvlib"/>
@@ -40,20 +37,14 @@
 				<Item Name="Close File+.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/file.llb/Close File+.vi"/>
 				<Item Name="compatReadText.vi" Type="VI" URL="/&lt;vilib&gt;/_oldvers/_oldvers.llb/compatReadText.vi"/>
 				<Item Name="Convert property node font to graphics font.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Convert property node font to graphics font.vi"/>
-				<Item Name="create EIP channel.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/channel/create EIP channel.vi"/>
-				<Item Name="delete assembly.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/delete assembly.vi"/>
-				<Item Name="delete channel from configuration.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/delete channel from configuration.vi"/>
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
-				<Item Name="EIP Tags Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/channel/EIP Tags Channel.lvclass"/>
-				<Item Name="EIP Tags Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/configuration/EIP Tags Configuration.lvclass"/>
 				<Item Name="engine configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/engine configuration.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
 				<Item Name="ErrWarn.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/ErrWarn.ctl"/>
-				<Item Name="EthernetIP Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/channel/EthernetIP Channel.lvclass"/>
-				<Item Name="EthernetIP configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/EthernetIP configuration.lvclass"/>
+				<Item Name="ethernetip.lvlib" Type="Library" URL="/&lt;vilib&gt;/ethernetip/ethernetip.lvlib"/>
 				<Item Name="eventvkey.ctl" Type="VI" URL="/&lt;vilib&gt;/event_ctls.llb/eventvkey.ctl"/>
 				<Item Name="ex_CorrectErrorChain.vi" Type="VI" URL="/&lt;vilib&gt;/express/express shared/ex_CorrectErrorChain.vi"/>
 				<Item Name="Find First Error.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Find First Error.vi"/>
@@ -62,7 +53,6 @@
 				<Item Name="General Error Handler CORE.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler CORE.vi"/>
 				<Item Name="General Error Handler.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/General Error Handler.vi"/>
 				<Item Name="Get File Extension.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/libraryn.llb/Get File Extension.vi"/>
-				<Item Name="get last byte.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/channel/get last byte.vi"/>
 				<Item Name="Get LV Class Default Value By Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value By Name.vi"/>
 				<Item Name="Get LV Class Default Value.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Default Value.vi"/>
 				<Item Name="Get LV Class Name.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/LVClass/Get LV Class Name.vi"/>
@@ -76,7 +66,6 @@
 				<Item Name="LVBoundsTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVBoundsTypeDef.ctl"/>
 				<Item Name="LVPositionTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVPositionTypeDef.ctl"/>
 				<Item Name="LVRowAndColumnTypeDef.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVRowAndColumnTypeDef.ctl"/>
-				<Item Name="modify assembly.vi" Type="VI" URL="/&lt;vilib&gt;/NI/TBM Modules/Ethernet IP/configuration/modify assembly.vi"/>
 				<Item Name="module information.ctl" Type="VI" URL="/&lt;vilib&gt;/NI/Tag Bus Data Framework/Configuration Editor/Classes/Engine Mappings/module information.ctl"/>
 				<Item Name="NI_FileType.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/lvfile.llb/NI_FileType.lvlib"/>
 				<Item Name="NI_PackedLibraryUtility.lvlib" Type="Library" URL="/&lt;vilib&gt;/Utility/LVLibp/NI_PackedLibraryUtility.lvlib"/>
@@ -120,6 +109,7 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
+			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
