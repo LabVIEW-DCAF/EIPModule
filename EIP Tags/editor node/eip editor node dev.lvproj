@@ -20,10 +20,7 @@
 		<Property Name="server.vi.callsEnabled" Type="Bool">true</Property>
 		<Property Name="server.vi.propertiesEnabled" Type="Bool">true</Property>
 		<Property Name="specify.custom.address" Type="Bool">false</Property>
-		<Item Name="EIP Tags Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/channel/EIP Tags Channel.lvclass"/>
-		<Item Name="EIP Tags Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/configuration/EIP Tags Configuration.lvclass"/>
 		<Item Name="EIP Tags editor node.lvclass" Type="LVClass" URL="../EIP Tags editor node.lvclass"/>
-		<Item Name="EIP Tags Runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/execution/EIP Tags Runtime.lvclass"/>
 		<Item Name="eipt.png" Type="Document" URL="../eipt.png"/>
 		<Item Name="Dependencies" Type="Dependencies">
 			<Item Name="vi.lib" Type="Folder">
@@ -40,6 +37,9 @@
 				<Item Name="Details Display Dialog.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Details Display Dialog.vi"/>
 				<Item Name="DialogType.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogType.ctl"/>
 				<Item Name="DialogTypeEnum.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/DialogTypeEnum.ctl"/>
+				<Item Name="EIP Tags Channel.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/channel/EIP Tags Channel.lvclass"/>
+				<Item Name="EIP Tags Configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/configuration/EIP Tags Configuration.lvclass"/>
+				<Item Name="EIP Tags Runtime.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/TBM Modules/EIP Tags/execution/EIP Tags Runtime.lvclass"/>
 				<Item Name="engine configuration.lvclass" Type="LVClass" URL="/&lt;vilib&gt;/NI/Module Execution Interface/Engine Configuration/engine configuration.lvclass"/>
 				<Item Name="Error Cluster From Error Code.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Cluster From Error Code.vi"/>
 				<Item Name="Error Code Database.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Error Code Database.vi"/>
@@ -109,7 +109,6 @@
 				<Item Name="Unset Busy.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/cursorutil.llb/Unset Busy.vi"/>
 				<Item Name="whitespace.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/whitespace.ctl"/>
 			</Item>
-			<Item Name="ethernetipinterface.dll" Type="Document" URL="/&lt;nishared&gt;/ethernetip/ethernetipinterface.dll"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build"/>
 	</Item>
