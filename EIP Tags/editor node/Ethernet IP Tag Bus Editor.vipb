@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2014-09-26 18:11:12" Creator="Daniel" Comments="" ID="e08290a759495eef19138eaeb02cbbd3">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2014-10-09 15:03:08" Creator="Daniel" Comments="" ID="963031258796b164be88bf3502e90def">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_eiptags_tbmedit</Package_File_Name>
-    <Library_Version>1.1.0.3</Library_Version>
+    <Library_Version>1.1.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\modules\EIP Tags</Library_Output_Folder>
@@ -35,7 +35,7 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes/>
+      <Release_Notes>fix race condition with refresh event</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
