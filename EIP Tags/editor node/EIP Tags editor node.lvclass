@@ -135,13 +135,13 @@
 				<Property Name="NI.ClassItem.State" Type="Int">1342710290</Property>
 			</Item>
 			<Item Name="table line to eiptag.vi" Type="VI" URL="../table line to eiptag.vi">
-				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!&amp;T!!!!#!!%!!!!=A$R!!!!!!!!!!)?25F1)&amp;2B:X-A1W^O:GFH&gt;8*B&gt;'FP&lt;CZM&gt;G.M98.T%76J=#"U97=A&gt;(FQ:8-O9X2M!$F!&amp;A!'"&amp;.*4F1$35Z5"%2*4F1%5E6"4!2#4U^-"F.55EF/2Q!!$76J=#"U97=A&gt;(FQ:8-!'%!Q`````Q^V&lt;GFR&gt;75A&gt;'&amp;H)'ZB&lt;75!'5!(!"*/&gt;7VC:8)A&lt;W9A27RF&lt;76O&gt;(-!!&amp;)!]1!!!!!!!!!#(E6*5#"597&gt;T)%.P&lt;G:J:X6S982J&lt;WYO&lt;(:D&lt;'&amp;T=R:F;8!A&gt;'&amp;H)'2F:GFO;82J&lt;WYO9X2M!"2!5!!$!!%!!A!$!X2B:Q!)!$$`````!":!1!!"`````Q!&amp;#5FU:7V/97VF=Q"5!0!!$!!!!!!!!!!%!!!!!!!!!!!!!!!!!!!!"A)!!(A!!!!!!!!!!!!!!!!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%!!!!!!"!!=!!!!!</Property>
+				<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!'&amp;!!!!#1!%!!!!$E!B#'FO&gt;G&amp;M;71`!!"S!0%!!!!!!!!!!BZ&amp;36!A6'&amp;H=S"$&lt;WZG;7&gt;V=G&amp;U;7^O,GRW9WRB=X-2:7FQ)(2B:S"U?8"F=SZD&gt;'Q!/5!7!!9%5UF/6!.*4F1%2%F/6!2325&amp;-"%*04UQ'5V2335Z(!!!.:7FQ)(2B:S"U?8"F=Q!91$$`````$X6O;8&amp;V:3"U97=A&lt;G&amp;N:1!:1!=!%EZV&lt;7*F=C"P:C"&amp;&lt;'6N:7ZU=Q!!5A$R!!!!!!!!!!)?25F1)&amp;2B:X-A1W^O:GFH&gt;8*B&gt;'FP&lt;CZM&gt;G.M98.T&amp;G6J=#"U97=A:'6G;7ZJ&gt;'FP&lt;CZD&gt;'Q!&amp;%"1!!-!!A!$!!1$&gt;'&amp;H!!A!-0````]!'E"!!!(`````!!9-&lt;'FO:3"T&gt;(*J&lt;G&gt;T!!"5!0!!$!!!!!!!!1!&amp;!!!!!!!!!!!!!!!!!!!!"Q)!!(A!!!!!!!!!!!!!#1!!!!E!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!#%!!!!!!"!!A!!!!!</Property>
 				<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
 				<Property Name="NI.ClassItem.Flags" Type="Int">0</Property>
 				<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
 				<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 				<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
-				<Property Name="NI.ClassItem.State" Type="Int">1342972416</Property>
+				<Property Name="NI.ClassItem.State" Type="Int">1342710272</Property>
 			</Item>
 		</Item>
 		<Item Name="view conversion" Type="Folder">
@@ -288,5 +288,14 @@
 		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
 		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
 		<Property Name="NI.ClassItem.State" Type="Int">1107825168</Property>
+	</Item>
+	<Item Name="tag direction.ctl" Type="VI" URL="../tag direction.ctl">
+		<Property Name="NI.ClassItem.ConnectorPane" Type="Bin">%Q#!!!!!!!)!"1!&amp;!!!-!%!!!@````]!!!!"!!%!!!"Q!!!!!1"I!0%!!!!!!!!!!BR&amp;36!A6'&amp;H=S"F:'FU&lt;X)A&lt;G^E:3ZM&gt;G.M98.T%82B:S"E;8*F9X2J&lt;WYO9X2M!$&amp;!&amp;Q!#$6*F971A:H*P&lt;3"14%--6X*J&gt;'5A&gt;']A5%R$!!!*:'FS:7.U;7^O!!%!!!!!!!!</Property>
+		<Property Name="NI.ClassItem.ExecutionSystem" Type="Int">-1</Property>
+		<Property Name="NI.ClassItem.Flags" Type="Int">1048576</Property>
+		<Property Name="NI.ClassItem.IsStaticMethod" Type="Bool">true</Property>
+		<Property Name="NI.ClassItem.MethodScope" Type="UInt">1</Property>
+		<Property Name="NI.ClassItem.Priority" Type="Int">1</Property>
+		<Property Name="NI.ClassItem.State" Type="Int">1082143232</Property>
 	</Item>
 </LVClass>
