@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2014-10-15 13:47:14" Creator="Daniel" Comments="" ID="6c39d04936a202a3b3d89d0ae9806a9d">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2014-10-15 14:10:59" Creator="Daniel" Comments="" ID="e01e575883ff81d64906dcac21066324">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_eip_tbmedit</Package_File_Name>
-    <Library_Version>2.0.0.2</Library_Version>
+    <Library_Version>2.0.1.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\..\releases\modules\Ethernet IP</Library_Output_Folder>
@@ -35,7 +35,10 @@
       <Copyright/>
       <Packager>NI Systems Engineering</Packager>
       <URL/>
-      <Release_Notes>Editor now uses assemblies as the source of channel types. Closes #4 #5</Release_Notes>
+      <Release_Notes>Fixed:
+type event not handled in cfg asm dialog
+refresh missing from create chan from asm
+cancel boolean case structure backwards in channel create from asm</Release_Notes>
     </Description>
     <Destinations>
       <Toolkit_VIs>
