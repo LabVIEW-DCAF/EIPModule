@@ -1,5 +1,2 @@
-vi	build tools\BUILD_install dependencies.vi
-vi	build tools\BUILD_uninstall.vi
-vip	EIP Tags\TBM EIP Tags.vipb
-vip	Ethernet IP\TBM EIP Assembly.vipb
-vi	build tools\BUILD_install upload.vi
+vipb	EIP Tags\TBM EIP Tags.vipb	testinstall	upload=platypus
+vipb	Ethernet IP\TBM EIP Assembly.vipb	testinstall	upload=platypus
