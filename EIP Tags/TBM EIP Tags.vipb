@@ -1,7 +1,7 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2015-01-13 17:08:13" Creator="Daniel" Comments="" ID="2903585882d5eebb88f1699eebda4132">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2015-01-16 17:55:50" Creator="Daniel" Comments="" ID="59644a0c5de909ee3468d22311785405">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbm_eip_tags</Package_File_Name>
-    <Library_Version>2.0.2.3</Library_Version>
+    <Library_Version>2.0.3.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
     <Library_Output_Folder>..\..\releases\modules\EIPTags</Library_Output_Folder>
