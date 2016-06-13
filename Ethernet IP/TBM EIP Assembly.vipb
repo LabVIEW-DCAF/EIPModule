@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2015-01-13 17:08:28" Creator="Daniel" Comments="" ID="8eab7f2ac766ee284588761e2573735a">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2016-06-13 10:45:03" Creator="Daniel" Comments="" ID="6acac3f477f89b5f4d477a23ab402f5d">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_tbm_eip_asm</Package_File_Name>
     <Library_Version>2.1.1.4</Library_Version>
@@ -116,11 +116,8 @@
       <Exclusions>
         <Path>EthernetIP.lvproj</Path>
       </Exclusions>
-      <Exclusions>
-        <Path>sample_code_license_terms_20141101.txt</Path>
-      </Exclusions>
     </Source_Files>
-    <License_Agreement_Filepath>sample_code_license_terms_20141101.txt</License_Agreement_Filepath>
+    <License_Agreement_Filepath>LICENSE.txt</License_Agreement_Filepath>
     <Licensing_and_Activation>
       <License_LF_file_path/>
       <Licensed_library_file_path/>
