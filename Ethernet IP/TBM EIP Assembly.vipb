@@ -1,6 +1,6 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2016-07-18 10:27:21" Creator="Daniel" Comments="" ID="7ac23e6faf950f44baf86b051e978762">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2016-07-25 15:10:52" Creator="Daniel" Comments="" ID="54e64643377611250f476838d33c224f">
   <Library_General_Settings>
-    <Package_File_Name>ni_lib_tbm_eip_asm</Package_File_Name>
+    <Package_File_Name>ni_lib_decaf_ethernet_ip</Package_File_Name>
     <Library_Version>2.1.1.4</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
