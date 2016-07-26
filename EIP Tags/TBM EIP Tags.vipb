@@ -1,6 +1,6 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2016-07-25 15:11:28" Creator="Daniel" Comments="" ID="36093ff2388a430fe05881147c2de0fa">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2016-07-25 20:31:01" Creator="Daniel" Comments="" ID="929b9e0ed1cb0ed3caa25d7cc56e0501">
   <Library_General_Settings>
-    <Package_File_Name>ni_lib_decaf_ethernet_ip_tags</Package_File_Name>
+    <Package_File_Name>ni_lib_dcaf_ethernet_ip_tags</Package_File_Name>
     <Library_Version>2.0.3.3</Library_Version>
     <Auto_Increment_Version>false</Auto_Increment_Version>
     <Library_Source_Folder>.</Library_Source_Folder>
