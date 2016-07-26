@@ -1,4 +1,4 @@
-<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2016-07-25 20:31:20" Creator="Daniel" Comments="" ID="8c9247441b5066287c1f33f895714d56">
+<VI_Package_Builder_Settings Version="0.6" Created_Date="2014-07-14 18:22:07" Modified_Date="2016-07-25 22:48:27" Creator="Daniel" Comments="" ID="86b8dced9715182b1c9f8a2c4a5d4c10">
   <Library_General_Settings>
     <Package_File_Name>ni_lib_dcaf_ethernet_ip</Package_File_Name>
     <Library_Version>2.1.1.4</Library_Version>
@@ -17,7 +17,7 @@
   </Library_General_Settings>
   <Advanced_Settings>
     <Package_Dependencies>
-      <Additional_External_Dependencies>ni_lib_dataeng &gt;=2.0.5.3</Additional_External_Dependencies>
+      <Additional_External_Dependencies>ni_frmwk_dcaf_core &gt;=1.0.0.5</Additional_External_Dependencies>
       <Package_Conflicts>ni_lib_eip_tbmedit &gt;=1.0.0.4</Package_Conflicts>
       <Package_Conflicts>ni_lib_tbm_eip &gt;=1.0.0.4</Package_Conflicts>
     </Package_Dependencies>
