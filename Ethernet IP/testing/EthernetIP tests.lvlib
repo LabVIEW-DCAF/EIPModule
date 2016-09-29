@@ -8,11 +8,31 @@
 
 </Property>
 	<Item Name="array tests.vi" Type="VI" URL="../array tests.vi"/>
+	<Item Name="channel operation tests.lvtest" Type="TestItem" URL="../channel operation tests.lvtest">
+		<Property Name="utf.test.bind" Type="Str">EthernetIP tests.lvlib:channel operation tests.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">04F05BAC-8BB4-11BB-3DDA-A2104289D991</Property>
+	</Item>
 	<Item Name="channel operation tests.vi" Type="VI" URL="../channel operation tests.vi"/>
 	<Item Name="create test channels.vi" Type="VI" URL="../create test channels.vi"/>
 	<Item Name="example test.vi" Type="VI" URL="../example test.vi"/>
+	<Item Name="init runtime test.lvtest" Type="TestItem" URL="../init runtime test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">EthernetIP tests.lvlib:init runtime test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">A71167BB-595A-4816-D6A0-C16908824C94</Property>
+	</Item>
 	<Item Name="init runtime test.vi" Type="VI" URL="../init runtime test.vi"/>
+	<Item Name="modify channel test.lvtest" Type="TestItem" URL="../modify channel test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">EthernetIP tests.lvlib:modify channel test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">1F909277-83B9-D22A-B9F2-AEDFCA3D2B94</Property>
+	</Item>
 	<Item Name="modify channel test.vi" Type="VI" URL="../modify channel test.vi"/>
+	<Item Name="rename channel test.lvtest" Type="TestItem" URL="../rename channel test.lvtest">
+		<Property Name="utf.test.bind" Type="Str">EthernetIP tests.lvlib:rename channel test.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">7A94D1BE-3949-77B7-B799-62FAA6CF61EC</Property>
+	</Item>
 	<Item Name="rename channel test.vi" Type="VI" URL="../rename channel test.vi"/>
+	<Item Name="serialization tests.lvtest" Type="TestItem" URL="../serialization tests.lvtest">
+		<Property Name="utf.test.bind" Type="Str">EthernetIP tests.lvlib:serialization tests.vi</Property>
+		<Property Name="utf.vector.test.bind" Type="Str">06235DEF-BC97-F294-3085-C0B5B9CAA1B0</Property>
+	</Item>
 	<Item Name="serialization tests.vi" Type="VI" URL="../serialization tests.vi"/>
 </Library>
